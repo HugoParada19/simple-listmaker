@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>To Do List</title>
+		<script src="main.js"></script>
+	</head>
+	<body onLoad="onLoad()">
+		<div style="width: 100%;">
+			<div style="width: 50%; height: 100px; float: left;">
+				<ul id="list">
+					
+				</ul>
+			</div>
+			<div style="margin-left: 50%; height: 100px;">
+				<h1>Add your article to get it to the to-do list</h1>
+				<label for="article">Article to add: </label>
+				<input type="text" id="article" name="article">
+				<button onClick="addList()">add</button>
+				<br>
+				<button onClick="clearPage()">Clear</button>
+			</div>
+		</div>
+	</body>
+</html>
